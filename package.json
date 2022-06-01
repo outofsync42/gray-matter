@@ -5,6 +5,10 @@
     "version": "1.0.0",
 	"publisher": "outofsync42",
 	"license": "MIT",
+    "repository": {
+		"type": "GitHub",
+		"url": "https://github.com/outofsync42/gray-matter"
+	},
     "engines": {
         "vscode": "^1.67.0"
     },
