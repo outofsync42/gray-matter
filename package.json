@@ -1,0 +1,23 @@
+{
+    "name": "gray-matter",
+    "displayName": "Gray Matter",
+    "description": "VSCode light theme with gray editor",
+    "version": "1.0.0",
+	"publisher": "outofsync42",
+	"license": "MIT",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gray Matter",
+                "uiTheme": "vs",
+                "path": "./themes/gray-matter-color-theme.json"
+            }
+        ]
+    }
+}
