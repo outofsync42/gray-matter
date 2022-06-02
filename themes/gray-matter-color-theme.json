@@ -6,7 +6,7 @@
 		"editor.findMatchHighlightBackground": "#cccccc84", //CTRL+F
 		"editor.lineHighlightBackground": "#7e7e7e",
 		"editor.foreground": "#000",
-		"editor.background": "#797979",
+		"editor.background": "#737373",
 		"editor.selectionBackground": "#37ADFB",
 		"editor.selectionForeground": "#fff", //does not work on low con theme
 		"editorBracketMatch.border": "#cccccc",
@@ -111,7 +111,7 @@
 		"scrollbarSlider.activeBackground": "#a5a5a5",
 		"scrollbarSlider.hoverBackground": "#a5a5a5",
 		"scrollbar.shadow": "#474747",
-		"minimap.background": "#707070",
+		"minimap.background": "#6e6e6e",
 		"minimap.errorHighlight": "#ff00006b",
 		"minimapGutter.addedBackground": "#00ff00",
 		"minimapGutter.modifiedBackground": "#0000ff",
@@ -134,7 +134,7 @@
 		"editorWarning.foreground": "#eadf1d", //wave line color
 		"badge.background": "#37ADFB",
 		"badge.foreground": "#fff",
-		// "banner.background": "#2089D0" //des nothing?
+		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
 		"editorCursor.foreground": "#ccc",
 		
@@ -319,6 +319,7 @@
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
 				"punctuation.separator.array.json",
+				"invalid.illegal.expected-dictionary-separator.json.comments"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -362,7 +363,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#eae89e",
+				"foreground": "#e3de4b",
 			}
 		},
 		{
@@ -372,7 +373,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#f1c063",
+				"foreground": "#e3ae4b",
 			}
 		},
 		{
