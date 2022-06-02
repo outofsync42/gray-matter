@@ -104,7 +104,8 @@
 		"editorGutter.addedBackground": "#a0d8ac",
 		"editorGutter.modifiedBackground": "#416eeb",
 		"editorGutter.deletedBackground": "#ff0000",
-		"editorGutter.foldingControlForeground": "#575757",
+		"editorGutter.foldingControlForeground": "#7b7b7b",
+		"editor.foldBackground": "#00000009",
 		"icon.foreground": "#000",
 		//SCROLL BAR / MINI MAP
 		"scrollbarSlider.background": "#bebebe",
@@ -363,7 +364,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#e3de4b",
+				"foreground": "#000000",
 			}
 		},
 		{
@@ -373,7 +374,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#e3ae4b",
+				"foreground": "#edec84",
 			}
 		},
 		{
