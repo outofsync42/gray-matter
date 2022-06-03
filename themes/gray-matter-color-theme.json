@@ -2,15 +2,20 @@
 	"name": "gray-matter",
 	"colors": {
 		"foreground": "#000",
+		"focusBorder": "#c5c5c5",
 		"editor.findMatchBackground": "#cccccc84", //Typed Search
 		"editor.findMatchHighlightBackground": "#cccccc84", //CTRL+F
 		"editor.lineHighlightBackground": "#7e7e7e",
+		"editorCursor.foreground": "#dbdbdb",
+		"editor.wordHighlightStrongBackground": "#cccccc84", //click on var to select
+		"editor.wordHighlightBackground": "#cccccc84", //mathinc vars
+		 "editor.hoverHighlightBackground": "#cccccc84",
 		"editor.foreground": "#000",
 		"editor.background": "#737373",
 		"editor.selectionBackground": "#37ADFB",
 		"editor.selectionForeground": "#fff", //does not work on low con theme
-		"editorBracketMatch.border": "#cccccc",
-		"editorBracketMatch.background": "#cccccc",
+		"editorBracketMatch.border": "#cccccc84",
+		"editorBracketMatch.background": "#cccccc84",
 		//these work together
 		"editor.symbolHighlightBackground": "#cccccc",
 		"editor.selectionHighlightBackground": "#cccccc84", //click text
@@ -80,8 +85,8 @@
 		"list.warningForeground": "#000000",
 		"list.errorForeground": "#ff0000",
 		"list.hoverBackground": "#c3d7ea",
-		"list.activeSelectionBackground": "#c6c6c6",
-		"list.inactiveSelectionBackground": "#c6c6c6",
+		"list.activeSelectionBackground": "#dddddd",
+		"list.inactiveSelectionBackground": "#dddddd",
 		"list.activeSelectionForeground": "#000",
 		"list.focusBackground": "#C2D3DC",
 		//TABS / BREAD CRUMBS
@@ -126,7 +131,7 @@
 		"menu.background": "#fff", //File Menu
 		"menu.foreground": "#000", //File Menu
 		"menu.border": "#a1a1a1",
-		"quickInput.background": "#ececec", //Command Pallet
+		"quickInput.background": "#ffffff", //Command Pallet
 		"quickInput.foreground": "#000", //Command Pallet
 		"symbolIcon.propertyForeground": "#2089D0", //icon color
 		"editorWidget.background": "#ffffff", //intelitype, find replace
@@ -137,7 +142,6 @@
 		"badge.foreground": "#fff",
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
-		"editorCursor.foreground": "#ccc",
 		
 	},
 	"tokenColors": [
@@ -569,7 +573,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#AAAAAA"
+				"foreground": "#0000ff"
 			}
 		},
 		{
@@ -601,12 +605,12 @@
 		{
 			"name": "HTML: Style",
 			"scope": [
-				"meta.embedded.line.css string.quoted.double.html",
-				"meta.embedded.line.css string.quoted.single.html"
+				"meta.embedded.line.css source.css",
+				"meta.embedded.line.css source.css"
 			],
 			"settings": {
-				"foreground": "#ee8484",
-				"fontStyle": ""
+				"foreground": "#e3ea86",
+				"fontStyle": " "
 			}
 		},
 		{

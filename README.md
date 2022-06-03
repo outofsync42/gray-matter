@@ -1,16 +1,20 @@
+# Color Theme
 
-Gray Matter is a VSCode light based theme with a gray editor window providing both a light and dark feel.
+Gray Matter is a VSCode light based color theme with a gray editor window providing both a light and dark feel. It also includes a file icon theme for light editors.
 
-![Light Theme JS Example](https://i.imgur.com/bsRZcAy.png)
+![JS Example](https://i.imgur.com/6dNDYzR.png)
 
+![PHP Example](https://i.imgur.com/J98MBqJ.png)
 
-![Light Theme PHP Example](https://i.imgur.com/4IdOT9z.png)
+![HTML Example](https://i.imgur.com/4wNwTX6.png)
 
+# File Icons
 
-![Light Theme HTML Example](https://i.imgur.com/tnZjKea.png)
+Includes custom icons as well as official icons from the [Visual Studio Image Library](https://msdn.microsoft.com/en-us/library/ms246582.aspx) to make navigating the file explore easier.
 
+![File Icons Example](https://i.imgur.com/zMhOfKZ.png)
 
-(Screenshots are using the [Studio Icons Theme](https://marketplace.visualstudio.com/items?itemName=jtlowe.vscode-icon-theme))
+# Optional Settings
 
 Settings to make the editor and file explore look more traditional sizing and cleaner
 
