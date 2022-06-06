@@ -24,21 +24,19 @@
 		"editorIndentGuide.activeBackground": "#8a8a8a",
 		"editorLineNumber.foreground": "#000",
 		"editorWhitespace.foreground": "#00000000",
-		"editorHoverWidget.background": "#919191",
-		"editorHoverWidget.foreground": "#1b1b1b",
-		"settings.headerForeground": "#f6c873",
+		"editorHoverWidget.background": "#7e7e7e",
+		"editorHoverWidget.foreground": "#000000",
+		"settings.headerForeground": "#ffffff",
 		"settings.rowHoverBackground": "#818181",
 		"settings.headerBorder": "#c0c0c0",
 		"settings.sashBorder": "#c0c0c0",
 		"settings.focusedRowBackground": "#718b92",
 		"settings.focusedRowBorder": "#718b92",
 		"selection.background": "#2986F5", //non code selection background
-		"welcomePage.background": "#cdcdcd",
+		"welcomePage.background": "#737373",
 		"window.activeBorder": "#000",
 		"activityBar.background": "#393939", //left most nav bar
 		"activityBar.activeBackground": "#525252",
-		
-		// "searchEditor.findMatchBackground": "#ff0000",
 		//INPUTS
 		//background
 		"settings.textInputBackground": "#bfbfbf",
@@ -61,7 +59,7 @@
 		"settings.textInputBorder": "#5f5f5f",
 		"settings.dropdownBorder": "#5f5f5f",
 		//links
-		"textLink.foreground": "#44ecef",
+		"textLink.foreground": "#cecece",
 		"textLink.activeForeground": "#39c1c3",
 		//TITLE BAR
 		"titleBar.activeBackground": "#c1c1c1",
@@ -87,12 +85,12 @@
 		"gitDecoration.stageModifiedResourceForeground": "#ff0000",
 		"list.warningForeground": "#000000",
 		"list.errorForeground": "#ff0000",
-		"list.hoverBackground": "#cadcec",
+		"list.hoverBackground": "#b5b5b5",
 		"list.activeSelectionBackground": "#dddddd",
 		"list.inactiveSelectionBackground": "#dddddd",
 		"list.activeSelectionForeground": "#000",
 		"list.focusBackground": "#C2D3DC",
-		"list.highlightForeground": "#5daeaf",
+		"list.highlightForeground": "#41bacf",
 		//TABS / BREAD CRUMBS
 		"breadcrumb.background": "#ffffff",
 		"breadcrumb.foreground": "#000",
@@ -155,7 +153,9 @@
 		"peekViewTitleDescription.foreground": "#aaaaaa",
 		"peekViewResult.selectionBackground": "#dddddd",
 		"peekViewResult.selectionForeground": "#000000",
-		"peekViewEditor.matchHighlightBackground": "#a7a7a7"
+		"peekViewEditor.matchHighlightBackground": "#a7a7a7",
+		//suggest widget
+		"editorSuggestWidget.highlightForeground": "#2986F5",
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
 	},
