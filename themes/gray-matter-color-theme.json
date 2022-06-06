@@ -84,7 +84,7 @@
 		"gitDecoration.stageModifiedResourceForeground": "#ff0000",
 		"list.warningForeground": "#000000",
 		"list.errorForeground": "#ff0000",
-		"list.hoverBackground": "#c3d7ea",
+		"list.hoverBackground": "#cadcec",
 		"list.activeSelectionBackground": "#dddddd",
 		"list.inactiveSelectionBackground": "#dddddd",
 		"list.activeSelectionForeground": "#000",
@@ -140,6 +140,18 @@
 		"editorWarning.foreground": "#eadf1d", //wave line color
 		"badge.background": "#37ADFB",
 		"badge.foreground": "#fff",
+		//PEEKVIEW
+		"peekViewTitle.background": "#464646",
+		"peekViewTitleLabel.foreground": "#fff",
+		"peekView.border": "#464646",
+		"peekViewEditor.background": "#7e7e7e",
+		"peekViewEditorGutter.background": "#ececec",
+		"peekViewResult.lineForeground": "#000000",
+		"peekViewResult.background": "#fff",
+		"peekViewTitleDescription.foreground": "#aaaaaa",
+		 "peekViewResult.selectionBackground": "#dddddd",
+		 "peekViewResult.selectionForeground": "#000000"
+		
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
 		
@@ -353,6 +365,8 @@
 				"punctuation.separator.key-value.js",
 				"meta.brace.round.js",
 				"meta.brace.square.js",
+				"punctuation.definition.binding-pattern.object.js",
+				"entity.name.type.instance.jsdoc punctuation.definition",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -396,7 +410,8 @@
 				"keyword.control.trycatch.js",
 				"keyword.control.switch.js",
 				"keyword.operator.expression.instanceof.js",
-				"keyword.operator.expression.delete.js"
+				"keyword.operator.expression.delete.js",
+				"storage.type.class.jsdoc punctuation.definition.block"
 			],
 			"settings": {
 				"foreground": "#0000ff"
@@ -609,7 +624,7 @@
 				"meta.embedded.line.css source.css"
 			],
 			"settings": {
-				"foreground": "#e3ea86",
+				"foreground": "#f8eb2f",
 				"fontStyle": " "
 			}
 		},
