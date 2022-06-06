@@ -19,16 +19,20 @@ Includes custom icons as well as official icons from the [Visual Studio Image Li
 Settings to make the editor and file explore look more traditional sizing and cleaner
 
 ```
+{
 	"window.zoomLevel": -0.3,
-    "editor.fontSize": 13,
-    "editor.fontWeight": "normal",
+	"editor.fontSize": 13,
+	"editor.fontWeight": "normal",
 	"editor.lineHeight": 1.2,
-    "editor.showFoldingControls": "always",
+	"editor.showFoldingControls": "always",
 	"editor.padding.top": 15,
 	"editor.padding.bottom": 15,
 	"workbench.tree.indent": 17,
 	"workbench.tree.renderIndentGuides": "always",
 	"editor.guides.highlightActiveIndentation": false,
-	"editor.guides.highlightActiveBracketPair": false,
 	"editor.guides.indentation": false,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.showUnused": false,
+	"editor.selectionHighlight": false,
+}
 ```
