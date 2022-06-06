@@ -1,15 +1,15 @@
 {
 	"name": "gray-matter",
 	"colors": {
-		"foreground": "#000",
+		 "foreground": "#000000",
 		"focusBorder": "#c5c5c5",
 		"editor.findMatchBackground": "#cccccc84", //Typed Search
 		"editor.findMatchHighlightBackground": "#cccccc84", //CTRL+F
 		"editor.lineHighlightBackground": "#7e7e7e",
 		"editorCursor.foreground": "#dbdbdb",
 		"editor.wordHighlightStrongBackground": "#cccccc84", //click on var to select
-		"editor.wordHighlightBackground": "#cccccc84", //mathinc vars
-		 "editor.hoverHighlightBackground": "#cccccc84",
+		"editor.wordHighlightBackground": "#cccccc84", //matching vars
+		"editor.hoverHighlightBackground": "#cccccc84",
 		"editor.foreground": "#000",
 		"editor.background": "#737373",
 		"editor.selectionBackground": "#37ADFB",
@@ -24,42 +24,45 @@
 		"editorIndentGuide.activeBackground": "#8a8a8a",
 		"editorLineNumber.foreground": "#000",
 		"editorWhitespace.foreground": "#00000000",
-		"editorBracketHighlight.foreground1": "#fff",
-		"editorBracketHighlight.foreground2": "#fff",
-		"editorBracketHighlight.foreground3": "#fff",
-		"editorBracketHighlight.foreground4": "#fff",
 		"editorHoverWidget.background": "#919191",
 		"editorHoverWidget.foreground": "#1b1b1b",
-		"settings.headerForeground": "#ffffff",
-		"settings.focusedRowBackground": "#709099",
+		"settings.headerForeground": "#f6c873",
 		"settings.rowHoverBackground": "#818181",
 		"settings.headerBorder": "#c0c0c0",
 		"settings.sashBorder": "#c0c0c0",
-		"settings.focusedRowBorder": "#709099",
+		"settings.focusedRowBackground": "#718b92",
+		"settings.focusedRowBorder": "#718b92",
 		"selection.background": "#2986F5", //non code selection background
 		"welcomePage.background": "#cdcdcd",
 		"window.activeBorder": "#000",
 		"activityBar.background": "#393939", //left most nav bar
 		"activityBar.activeBackground": "#525252",
+		
+		// "searchEditor.findMatchBackground": "#ff0000",
 		//INPUTS
 		//background
-		"settings.textInputBackground": "#cdcdcd",
-		"settings.dropdownBackground": "#cdcdcd",
-		"settings.checkboxBackground": "#cdcdcd",
-		"settings.numberInputBackground": "#cdcdcd",
-		"input.background": "#cdcdcd",
+		"settings.textInputBackground": "#bfbfbf",
+		"settings.dropdownBackground": "#bfbfbf",
+		"settings.checkboxBackground": "#bfbfbf",
+		"settings.numberInputBackground": "#bfbfbf",
+		"input.background": "#bfbfbf",
 		//foreground
 		"settings.checkboxForeground": "#000",
 		"settings.textInputForeground": "#000",
 		"settings.numberInputForeground": "#000",
 		"settings.dropdownForeground": "#000",
 		"input.foreground": "#000",
+		"input.placeholderForeground": "#7d7d7d",
+		"quickInputTitle.background": "#ff0000",
 		//border
 		"input.border": "#5f5f5f",
 		"settings.numberInputBorder": "#5f5f5f",
 		"settings.checkboxBorder": "#5f5f5f",
 		"settings.textInputBorder": "#5f5f5f",
 		"settings.dropdownBorder": "#5f5f5f",
+		//links
+		"textLink.foreground": "#44ecef",
+		"textLink.activeForeground": "#39c1c3",
 		//TITLE BAR
 		"titleBar.activeBackground": "#c1c1c1",
 		"titleBar.inactiveBackground": "#c1c1c1",
@@ -89,6 +92,7 @@
 		"list.inactiveSelectionBackground": "#dddddd",
 		"list.activeSelectionForeground": "#000",
 		"list.focusBackground": "#C2D3DC",
+		"list.highlightForeground": "#5daeaf",
 		//TABS / BREAD CRUMBS
 		"breadcrumb.background": "#ffffff",
 		"breadcrumb.foreground": "#000",
@@ -128,13 +132,13 @@
 		"panel.border": "#a1a1a1",
 		"panelTitle.activeBorder": "#757575",
 		"terminal.foreground": "#000",
-		"menu.background": "#fff", //File Menu
+		"menu.background": "#ececec", //File Menu
 		"menu.foreground": "#000", //File Menu
 		"menu.border": "#a1a1a1",
-		"quickInput.background": "#ffffff", //Command Pallet
+		"quickInput.background": "#ececec", //Command Pallet
 		"quickInput.foreground": "#000", //Command Pallet
 		"symbolIcon.propertyForeground": "#2089D0", //icon color
-		"editorWidget.background": "#ffffff", //intelitype, find replace
+		"editorWidget.background": "#ececec", //intelitype, find replace
 		//MISC
 		"editorError.foreground": "#ff0000", //waveline color
 		"editorWarning.foreground": "#eadf1d", //wave line color
@@ -149,12 +153,11 @@
 		"peekViewResult.lineForeground": "#000000",
 		"peekViewResult.background": "#fff",
 		"peekViewTitleDescription.foreground": "#aaaaaa",
-		 "peekViewResult.selectionBackground": "#dddddd",
-		 "peekViewResult.selectionForeground": "#000000"
-		
+		"peekViewResult.selectionBackground": "#dddddd",
+		"peekViewResult.selectionForeground": "#000000",
+		"peekViewEditor.matchHighlightBackground": "#a7a7a7"
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
-		
 	},
 	"tokenColors": [
 		{
@@ -165,7 +168,7 @@
 				"entity.name.type",
 				"entity.other.attribute-name",
 				"meta.property-value.css",
-				"meta.property-list.css"
+				"meta.property-list.css",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -236,9 +239,9 @@
 			"scope": [
 				"string",
 				"string.quoted.double.json.comments punctuation",
-				"punctuation.definition",
 				"source.sql.embedded.php constant.numeric",
 				"source.sql.embedded.php keyword.operator",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#63ecf1"
@@ -248,6 +251,7 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
+				"punctuation.definition",
 				"punctuation.definition.dictionary",
 				"punctuation.terminator.statement",
 				"punctuation.definition.parameters",
@@ -508,7 +512,6 @@
 			"name": "PHP: Functions",
 			"scope": [
 				"entity.other.inherited-class.php",
-				"punctuation.definition.class.begin.bracket.curly.php",
 				"punctuation.separator.delimiter.php",
 				"support.function.var.php",
 				"support.function.output.php",
@@ -525,10 +528,12 @@
 				"meta.method-call.php",
 				"keyword.operator.ternary.php",
 				"support.function.string.php",
+				"entity.name.function.php",
+				"meta.function-call.php constant.language.php"
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#000"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -550,17 +555,20 @@
 				"punctuation.definition.switch-expression.end.bracket.round.php",
 				"punctuation.definition.section.switch-block.begin.bracket.curly.php",
 				"punctuation.definition.section.switch-block.end.bracket.curly.php",
-				"punctuation.terminator.statement.php"
+				"punctuation.definition.class.begin.bracket.curly.php",
+				"punctuation.definition.class.end.bracket.curly.php",
+				"punctuation.terminator.statement.php",
 			],
 			"settings": {
+				"foreground": "#000000",
 				"fontStyle": "",
-				"foreground": "#000"
+				
 			}
 		},
 		{
 			"name": "PHP: Static Method / Vars",
 			"scope": [
-				"meta.method-call.static.php",
+				"meta.method-call.static.php entity.name.function.php",
 				"variable.other.class.php"
 			],
 			"settings": {
@@ -749,7 +757,6 @@
 			"scope": [
 				"meta.link",
 				"markup.underline.link.image.markdown",
-				
 			],
 			"settings": {
 				"foreground": "#ebebeb"
