@@ -352,7 +352,7 @@
 			"scope": [
 				"meta.definition.variable.js",
 				"meta.definition.variable.js variable.other.readwrite.js",
-				"variable.other.object.js",
+				"variable.parameter.js",
 				"support.variable.property.js",
 				"entity.name.function.js",
 				"meta.object-literal.key.js"
@@ -392,11 +392,13 @@
 		{
 			"name": "JS Parameter",
 			"scope": [
-				"variable.parameter.js",
+				
+				"variable.other.object.js",
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#edec84",
+				"foreground": "#C9C91C",
+				// "foreground": "#edec84",
 			}
 		},
 		{
