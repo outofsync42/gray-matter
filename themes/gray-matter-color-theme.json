@@ -457,7 +457,9 @@
 				"keyword.control.else.php",
 				"keyword.control.exit.php",
 				"storage.type.trait.php",
-				"meta.function-call.php constant.language.php"
+				"meta.function-call.php constant.language.php",
+				"keyword.control.for.php",
+				"keyword.control.default.php"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -533,7 +535,7 @@
 				"keyword.operator.ternary.php",
 				"support.function.string.php",
 				"entity.name.function.php",
-				""
+				"punctuation.definition.trait"
 			],
 			"settings": {
 				"fontStyle": "",
