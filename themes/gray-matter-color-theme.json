@@ -456,6 +456,8 @@
 				"keyword.control.if.php",
 				"keyword.control.else.php",
 				"keyword.control.exit.php",
+				"storage.type.trait.php",
+				"meta.function-call.php constant.language.php"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -531,7 +533,7 @@
 				"keyword.operator.ternary.php",
 				"support.function.string.php",
 				"entity.name.function.php",
-				"meta.function-call.php constant.language.php"
+				""
 			],
 			"settings": {
 				"fontStyle": "",
