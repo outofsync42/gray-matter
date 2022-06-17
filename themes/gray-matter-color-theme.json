@@ -464,6 +464,7 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#79053F"
+				// "foreground": "#79053F"
 			}
 		},
 		{
@@ -716,7 +717,7 @@
 			"name": "CSS: Important Keyword",
 			"scope": "keyword.other.important",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		//MARKUP
