@@ -295,7 +295,7 @@
             "iconPath": "./images/GitLogo_16x_contrast.svg"
         },
         "HTMLFile_16x.svg": {
-            "iconPath": "./images/HTMLFile_16x.svg"
+            "iconPath": "./images/file.png"
         },
         "HTMLFile_16x_inverse.svg": {
             "iconPath": "./images/HTMLFile_16x_inverse.svg"

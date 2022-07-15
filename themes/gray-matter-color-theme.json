@@ -3,8 +3,8 @@
 	"colors": {
 		 "foreground": "#000000",
 		"focusBorder": "#c5c5c5",
-		"editor.findMatchBackground": "#cccccc84", //Typed Search
-		"editor.findMatchHighlightBackground": "#cccccc84", //CTRL+F
+		"editor.findMatchBackground": "#37ADFB", //Typed Search
+		"editor.findMatchHighlightBackground": "#97a36c", //CTRL+F
 		"editor.lineHighlightBackground": "#7e7e7e",
 		"editorCursor.foreground": "#dbdbdb",
 		"editor.wordHighlightStrongBackground": "#cccccc84", //click on var to select
@@ -23,9 +23,9 @@
 		"editorIndentGuide.background": "#868686",
 		"editorIndentGuide.activeBackground": "#8a8a8a",
 		"editorLineNumber.foreground": "#000",
+		"editorLineNumber.activeForeground": "#267fba",
 		"editorWhitespace.foreground": "#00000000",
-		"editorHoverWidget.background": "#7e7e7e",
-		"editorHoverWidget.foreground": "#000000",
+		"textCodeBlock.background": "#dddddd", //background of code params in intellitype info
 		"settings.headerForeground": "#ffffff",
 		"settings.rowHoverBackground": "#818181",
 		"settings.headerBorder": "#c0c0c0",
@@ -35,8 +35,16 @@
 		"selection.background": "#2986F5", //non code selection background
 		"welcomePage.background": "#737373",
 		"window.activeBorder": "#000",
+		//widgets
+		"editorHoverWidget.background": "#7e7e7e",
+		"editorHoverWidget.foreground": "#000000",
+		"editorWidget.background": "#ececec", //find replace
+		"editorSuggestWidget.background": "#c5c5c5", //intelitype
+		"editorSuggestWidget.highlightForeground": "#2986F5",
+		//activity bar
 		"activityBar.background": "#393939", //left most nav bar
 		"activityBar.activeBackground": "#525252",
+		"activityBar.activeBorder": "#2E90E8",
 		//INPUTS
 		//background
 		"settings.textInputBackground": "#bfbfbf",
@@ -136,11 +144,10 @@
 		"quickInput.background": "#ececec", //Command Pallet
 		"quickInput.foreground": "#000", //Command Pallet
 		"symbolIcon.propertyForeground": "#2089D0", //icon color
-		"editorWidget.background": "#ececec", //intelitype, find replace
 		//MISC
 		"editorError.foreground": "#ff0000", //waveline color
 		"editorWarning.foreground": "#eadf1d", //wave line color
-		"badge.background": "#37ADFB",
+		"badge.background": "#2089D0",
 		"badge.foreground": "#fff",
 		//PEEKVIEW
 		"peekViewTitle.background": "#464646",
@@ -154,8 +161,8 @@
 		"peekViewResult.selectionBackground": "#dddddd",
 		"peekViewResult.selectionForeground": "#000000",
 		"peekViewEditor.matchHighlightBackground": "#a7a7a7",
-		//suggest widget
-		"editorSuggestWidget.highlightForeground": "#2986F5",
+
+		// "editorSuggestWidget.selectedBackground": "#ff0000"
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
 	},
@@ -459,7 +466,8 @@
 				"storage.type.trait.php",
 				"meta.function-call.php constant.language.php",
 				"keyword.control.for.php",
-				"keyword.control.default.php"
+				"keyword.control.default.php",
+				"keyword.other.function.use.php"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -544,7 +552,7 @@
 			}
 		},
 		{
-			"name": "PHP: Puntuation",
+			"name": "PHP: Punctuation",
 			"scope": [
 				"punctuation.definition.arguments.begin.bracket.round.php",
 				"punctuation.definition.arguments.end.bracket.round.php",
@@ -623,7 +631,6 @@
 			"scope": [
 				"meta.attribute.class.html string.quoted.double.html",
 				"meta.attribute.id.html string.quoted.double.html",
-				"meta.attribute.type.html string.quoted.double.html",
 				"meta.attribute.class.html string.quoted.single.html",
 				"meta.attribute.id.html string.quoted.single.html",
 				"meta.attribute.type.html string.quoted.single.html",
