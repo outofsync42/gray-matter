@@ -1,7 +1,7 @@
 {
 	"name": "gray-matter",
 	"colors": {
-		 "foreground": "#000000",
+		"foreground": "#000000",
 		"focusBorder": "#c5c5c5",
 		"editor.findMatchBackground": "#37ADFB", //Typed Search
 		"editor.findMatchHighlightBackground": "#97a36c", //CTRL+F
@@ -39,7 +39,8 @@
 		"editorHoverWidget.background": "#7e7e7e",
 		"editorHoverWidget.foreground": "#000000",
 		"editorWidget.background": "#ececec", //find replace
-		"editorSuggestWidget.background": "#c5c5c5", //intelitype
+		"editorSuggestWidget.background": "#979797", //intelitype
+		// "editorSuggestWidget.background": "#c5c5c5", //intelitype
 		"editorSuggestWidget.highlightForeground": "#2986F5",
 		//activity bar
 		"activityBar.background": "#393939", //left most nav bar
@@ -68,6 +69,7 @@
 		"settings.dropdownBorder": "#5f5f5f",
 		//links
 		"textLink.foreground": "#cecece",
+		//"textLink.foreground": "#63ECF1",
 		"textLink.activeForeground": "#39c1c3",
 		//TITLE BAR
 		"titleBar.activeBackground": "#c1c1c1",
@@ -161,7 +163,6 @@
 		"peekViewResult.selectionBackground": "#dddddd",
 		"peekViewResult.selectionForeground": "#000000",
 		"peekViewEditor.matchHighlightBackground": "#a7a7a7",
-
 		// "editorSuggestWidget.selectedBackground": "#ff0000"
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
@@ -399,7 +400,6 @@
 		{
 			"name": "JS Parameter",
 			"scope": [
-				
 				"variable.other.object.js",
 			],
 			"settings": {
@@ -577,7 +577,6 @@
 			"settings": {
 				"foreground": "#000000",
 				"fontStyle": "",
-				
 			}
 		},
 		{
