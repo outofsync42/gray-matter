@@ -39,9 +39,12 @@
 		"editorHoverWidget.background": "#7e7e7e",
 		"editorHoverWidget.foreground": "#000000",
 		"editorWidget.background": "#ececec", //find replace
-		"editorSuggestWidget.background": "#979797", //intelitype
-		// "editorSuggestWidget.background": "#c5c5c5", //intelitype
-		"editorSuggestWidget.highlightForeground": "#2986F5",
+		"editorSuggestWidget.background": "#8c8c8c", //intellitype
+		"editorSuggestWidget.highlightForeground": "#eee",
+		"editorSuggestWidget.focusHighlightForeground": "#eee",
+		"editorSuggestWidget.selectedIconForeground": "#000",
+		"editorSuggestWidget.selectedBackground": "#a6a6a6",
+		"editorSuggestWidget.selectedForeground": "#000",
 		//activity bar
 		"activityBar.background": "#393939", //left most nav bar
 		"activityBar.activeBackground": "#525252",
@@ -163,7 +166,6 @@
 		"peekViewResult.selectionBackground": "#dddddd",
 		"peekViewResult.selectionForeground": "#000000",
 		"peekViewEditor.matchHighlightBackground": "#a7a7a7",
-		// "editorSuggestWidget.selectedBackground": "#ff0000"
 		// "banner.background": "#2089D0" //does nothing?
 		// "breadcrumbPicker.background": "#ff0000"
 	},
@@ -434,7 +436,6 @@
 				"keyword.control.switch.js",
 				"keyword.operator.expression.instanceof.js",
 				"keyword.operator.expression.delete.js",
-				
 			],
 			"settings": {
 				"foreground": "#0000ff"
