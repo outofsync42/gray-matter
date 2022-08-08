@@ -15,7 +15,7 @@ HTML CSS screen shot shown using VSCode extension [Inline CSS Color](https://mar
 
 Includes custom icons as well as official icons from the [Visual Studio Image Library](https://msdn.microsoft.com/en-us/library/ms246582.aspx) to make navigating the file explore easier.
 
-![File Icons Example](https://i.imgur.com/zMhOfKZ.png)
+![File Icons Example](https://raw.githubusercontent.com/outofsync42/gray-matter/master/img/file-icons-example.png)
 
 # Optional Settings
 
