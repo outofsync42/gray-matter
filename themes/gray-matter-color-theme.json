@@ -41,9 +41,9 @@
 		"editorWidget.background": "#ececec", //find replace
 		"editorSuggestWidget.background": "#8c8c8c", //intellitype
 		"editorSuggestWidget.highlightForeground": "#eee",
-		"editorSuggestWidget.focusHighlightForeground": "#eee",
+		"editorSuggestWidget.focusHighlightForeground": "#EEE",
 		"editorSuggestWidget.selectedIconForeground": "#000",
-		"editorSuggestWidget.selectedBackground": "#a6a6a6",
+		"editorSuggestWidget.selectedBackground": "#7bacc6",
 		"editorSuggestWidget.selectedForeground": "#000",
 		//activity bar
 		"activityBar.background": "#393939", //left most nav bar
@@ -380,8 +380,7 @@
 				"meta.brace.round.js",
 				"meta.brace.square.js",
 				"punctuation.definition.binding-pattern.object.js",
-				"entity.name.type.instance.jsdoc punctuation.definition",
-				"storage.type.class.jsdoc punctuation.definition.block"
+				
 			],
 			"settings": {
 				"fontStyle": "",
@@ -414,10 +413,12 @@
 			"name": "JS JSDoc",
 			"scope": [
 				"storage.type.class.jsdoc",
+				"storage.type.class.jsdoc punctuation.definition.block",
+				"entity.name.type.instance.jsdoc punctuation.definition",
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#fff",
+				"foreground": "#d1d1d1",
 			}
 		},
 		{
@@ -520,7 +521,8 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ffffffeb"
+				// "foreground": "#7bacc6"
+				 "foreground": "#ffffffeb"
 			}
 		},
 		{
@@ -608,7 +610,8 @@
 				"keyword.other.phpdoc.php"
 			],
 			"settings": {
-				"foreground": "#ffffffeb",
+				// "foreground": "#aadfde",
+				 "foreground": "#d1d1d1",
 			}
 		},
 		//HTML
