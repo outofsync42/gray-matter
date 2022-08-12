@@ -442,6 +442,26 @@
 				"foreground": "#0000ff"
 			}
 		},
+		//TYPESCRIPT
+		{
+			"name": "Key Words TS",
+			"scope": [
+				"keyword.operator.new.ts",
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "TS Punctuation",
+			"scope": [
+				"meta.brace.round.ts",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ffffffeb",
+			}
+		},
 		//PHP
 		{
 			"name": "PHP: Key Words",
