@@ -422,6 +422,16 @@
 			}
 		},
 		{
+			"name": "JS JSDoc",
+			"scope": [
+				"entity.name.type.instance.jsdoc",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#ecd47e",
+			}
+		},
+		{
 			"name": "Key Words JS",
 			"scope": [
 				"variable.language.this.js",

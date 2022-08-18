@@ -9,7 +9,7 @@
 		"type": "GitHub",
 		"url": "https://github.com/outofsync42/gray-matter"
 	},
-	"icon": "img/icon.png",
+	"icon": "img/javascript-example.png",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
