@@ -63,7 +63,6 @@
 		"settings.dropdownForeground": "#000",
 		"input.foreground": "#000",
 		"input.placeholderForeground": "#7d7d7d",
-		"quickInputTitle.background": "#ff0000",
 		//border
 		"input.border": "#5f5f5f",
 		"settings.numberInputBorder": "#5f5f5f",
@@ -98,7 +97,7 @@
 		"gitDecoration.stageModifiedResourceForeground": "#ff0000",
 		"list.warningForeground": "#000000",
 		"list.errorForeground": "#ff0000",
-		"list.hoverBackground": "#b5b5b5",
+		"list.hoverBackground": "#bdbdbd",
 		"list.activeSelectionBackground": "#dddddd",
 		"list.inactiveSelectionBackground": "#dddddd",
 		"list.activeSelectionForeground": "#000",
@@ -167,7 +166,15 @@
 		"peekViewResult.selectionForeground": "#000000",
 		"peekViewEditor.matchHighlightBackground": "#a7a7a7",
 		// "banner.background": "#2089D0" //does nothing?
-		// "breadcrumbPicker.background": "#ff0000"
+		// "breadcrumbPicker.background": "#ff0000
+		// DEBUG
+		//  "debugTokenExpression.name": "#00b2e3",
+		//  "debugTokenExpression.string": "#ea980a",
+		"debugTokenExpression.number": "#ee8484",
+		"debugTokenExpression.boolean": "#0000ff",
+		"debugTokenExpression.name": "#df9008",
+		"debugTokenExpression.string": "#00b2e3",
+		"debugTokenExpression.value": "#444444",
 	},
 	"tokenColors": [
 		{
@@ -380,7 +387,6 @@
 				"meta.brace.round.js",
 				"meta.brace.square.js",
 				"punctuation.definition.binding-pattern.object.js",
-				
 			],
 			"settings": {
 				"fontStyle": "",
@@ -552,7 +558,7 @@
 			"settings": {
 				"fontStyle": "",
 				// "foreground": "#7bacc6"
-				 "foreground": "#ffffffeb"
+				"foreground": "#ffffffeb"
 			}
 		},
 		{
@@ -641,7 +647,7 @@
 			],
 			"settings": {
 				// "foreground": "#aadfde",
-				 "foreground": "#d1d1d1",
+				"foreground": "#d1d1d1",
 			}
 		},
 		//HTML
