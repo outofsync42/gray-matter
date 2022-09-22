@@ -82,7 +82,7 @@
 		"statusBar.background": "#007ACC", //bottom most window bar
 		"statusBar.foreground": "#fff",
 		//SIDEBAR
-		"sideBar.background": "#ffffff",
+		"sideBar.background": "#f9f9f9",
 		"sideBar.foreground": "#000",
 		"sideBar.border": "#a1a1a1",
 		"sideBarSectionHeader.border": "#a1a1a1",
@@ -172,8 +172,9 @@
 		//  "debugTokenExpression.string": "#ea980a",
 		"debugTokenExpression.number": "#ee8484",
 		"debugTokenExpression.boolean": "#0000ff",
-		"debugTokenExpression.name": "#df9008",
-		"debugTokenExpression.string": "#00b2e3",
+		"debugTokenExpression.name": "#00b2e3",
+		// "debugTokenExpression.name": "#df9008",
+		"debugTokenExpression.string": "#df9008",
 		"debugTokenExpression.value": "#444444",
 	},
 	"tokenColors": [
@@ -639,14 +640,21 @@
 			}
 		},
 		{
-			"name": "PHP Storage Modifier",
+			"name": "PHP: Modifier",
 			"scope": [
 				"storage.modifier.reference.php",
-				"keyword.operator.string.php",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000"
+			}
+		},
+		{
+			"name": "PHP Storage Modifier",
+			"scope": [
 				"keyword.other.phpdoc.php"
 			],
 			"settings": {
-				// "foreground": "#aadfde",
 				"foreground": "#d1d1d1",
 			}
 		},
