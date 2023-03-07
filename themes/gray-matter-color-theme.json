@@ -700,10 +700,18 @@
 			"name": "HTML: Style",
 			"scope": [
 				"meta.embedded.line.css source.css",
-				"meta.embedded.line.css source.css",
 			],
 			"settings": {
 				"foreground": "#f8eb2f",
+			}
+		},
+		{
+			"name": "HTML: Style End Quote",
+			"scope": [
+				"meta.embedded.line.css punctuation.definition.string.end.html source.css",
+			],
+			"settings": {
+				"foreground": "#63ecf1",
 			}
 		},
 		{
