@@ -2,14 +2,14 @@
 	"name": "gray-matter",
 	"displayName": "Gray Matter",
 	"description": "VSCode light theme with gray editor",
-	"version": "1.0.21",
+	"version": "1.0.22",
 	"publisher": "outofsync42",
 	"license": "MIT",
 	"repository": {
 		"type": "GitHub",
 		"url": "https://github.com/outofsync42/gray-matter"
 	},
-	"icon": "img/javascript-example.png",
+	"icon": "img/icon2.png",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
