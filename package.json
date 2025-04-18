@@ -2,7 +2,7 @@
 	"name": "gray-matter",
 	"displayName": "Gray Matter",
 	"description": "VSCode light theme with gray editor",
-	"version": "1.0.22",
+	"version": "1.0.23",
 	"publisher": "outofsync42",
 	"license": "MIT",
 	"repository": {
@@ -40,6 +40,7 @@
 		"targetPlatform": "undefined",
 		"isApplicationScoped": false,
 		"updated": true,
-		"preRelease": false
+		"preRelease": false,
+		"size": 2510166
 	}
 }
